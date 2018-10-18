@@ -1,0 +1,476 @@
+Script started on 2018-10-17 18:02:40+0530
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ vi c2.awk cp c1.awk c2.awk7Pvi c1.awkcp c1.awk c2.awk6Pvi c2.awk  vi c2.awk cp c1.awk c2.awk6Pvi c2.awk cp c1.awk c2.awk7Pvi c1.awkawk -F"|" -f c1.awk f2.txt17Pvi c1.awkcp c1.awk c2.awk6Pvi c2.awk  sh q1fKgretestNum.sh 
+Enter Number A: 5
+Enter Number B: 2
+Enter Number C: 44 
+Number A 5 is gretest
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q1gretestNum.sh  
+shq2KKKh q2pKPK
+q20awk.sh         q2allPrimeNum.sh  
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q2allPrimeNum.sh 
+Enter Minimum Number: 2
+Enter Maximum Number: 25
+2
+3
+5
+7
+11
+13
+17
+19
+23
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q3evenOrOdd.sh 
+Enter Number: 5
+Number is Odd
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q4Pattern.sh 
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * * * 
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q5SumOfDigits.sh 
+Enter Number: 254
+SUM : 11
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q6leapYear.sh 
+Enter Year: 2018
+It is Not Leap Year
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q7fibonacci.sh 
+Enter Number N: 20
+1
+1
+2
+3
+5
+8
+13
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q8salaryCale.sh 
+Enter Basic Salary: 5 15000
+Choose what to find: 
+a. for Dearness allowance
+b. for Provident Func
+c. for Hourse Rent
+d. for Income Tax deducted
+e. for Take Home Salary
+e
+42750
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q9
+sh: 0: Can't open q9
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q9filePermissionUGA.sh 
+Enter File Name: f1.txt
+User's permissions: 
+	Read
+	Write
+Group's permissions: 
+	Read
+	Write
+Other's permissions: 
+	Read
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q10cmpFiles.sh 
+Enter File1 Name: f1
+Enter File2 Name: f2
+Files f1 and f2 are not Identical
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q11wordslt4.sh 
+is
+of
+but
+we
+to
+4.
+so
+are
+to
+do
+is
+Yes
+i
+not
+is
+my|
+a
+in
+is
+2nd
+is
+of
+end
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q13wordcount.sh KKKKKKKKKKKKKK2TotalFilesDir.sh 
+Total Files: 35
+Total Directories: 4
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q13wordcount.sh 
+Enter File Name: f1.txt
+Total Characters: 330
+Total Words: 64
+Total Lines: 19
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q14UserLogged.sh 
+Enter Username: hamid
+Entered Username is currently logged in
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh 1Kq15countSDJIC.sh 
+Enter File Name: f1.txt
+2
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q16revWords.sh 
+Enter File Name: f1.txt
+siht si elif htiw stol fo senil 
+siht senil sedulcni ynam sdrow tub ew deen ot wohs 
+ylno esoht sdrow hcihw evah htgneL ssel neht .4 
+os era |uoy ydaer ot od ??taht 
+CIJDS egelloc 
+siht si morf CIJDS 
+XINUSOTSEB 
+
+
+
+seY 
+i lliw ton liaf 
+cijds si |ym egelloc 
+a taerg egelloc ni tarus si cijds 
+dn2 rebotco si yadhtrib fo ihdnaG 
+6333152652 
+
+
+dne 
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q17StartsWithUnix.sh 
+Unix is very good os
+unix is pwoerful
+UNIX is multi use
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q18Grep.sh 
+a. Count number of blank lines in file f1.txt
+5
+--------------------------------------------------------
+b. print all lines containing sdjic.
+sdjic is my| college
+a great college in surat is sdjic
+--------------------------------------------------------
+c. print the lines that starts with sdjic.
+sdjic is my| college
+--------------------------------------------------------
+d. Search the files in CPROGRAMS directory which has the string 'include'
+CPROGRAMS/arrayInputOutput.c
+CPROGRAMS/assQ1.c
+--------------------------------------------------------
+e. print lines having exactly 50 characters in file f1.txt
+this lines includes many words but we need to show
+--------------------------------------------------------
+f. Count number of blank lines in file f1.txt
+5
+--------------------------------------------------------
+g. Display lines having atleast one characters in file f1.txt
+this is file with lots of lines
+this lines includes many words but we need to show
+only those words which have Length less then 4. 
+so are you| ready to do that??
+SDJIC college
+this is from SDJIC 
+BESTOSUNIX
+Yes
+i will not fail
+sdjic is my| college
+a great college in surat is sdjic
+2nd october is birthday of Gandhi
+2562513336
+end
+--------------------------------------------------------
+h. Display lines having sdjic text in any case in file f1.txt
+SDJIC college
+this is from SDJIC 
+sdjic is my| college
+a great college in surat is sdjic
+--------------------------------------------------------
+i. Display line of file f1.txt having exactly 3 characters
+Yes
+end
+--------------------------------------------------------
+j. Display lines of file f1.txt which begin with any alphabet
+this is file with lots of lines
+this lines includes many words but we need to show
+only those words which have Length less then 4. 
+so are you| ready to do that??
+SDJIC college
+this is from SDJIC 
+BESTOSUNIX
+Yes
+i will not fail
+sdjic is my| college
+a great college in surat is sdjic
+end
+--------------------------------------------------------
+k. Display lines whose last word is “UNIX” in file f1.txt
+BESTOSUNIX
+--------------------------------------------------------
+l. Display filenames having last character as digit [0-9]
+2562513336
+--------------------------------------------------------
+m. Display list of filenames that only consist digits
+f1.txt
+--------------------------------------------------------
+n. Display line of file f1.txt which only consist digits
+2562513336
+--------------------------------------------------------
+o. Display lines of file f1.txt which only consist capital alphabets
+BESTOSUNIX
+--------------------------------------------------------
+p. Search all lines in file f1.txt which ends with '.'
+only those words which have Length less then 4. 
+--------------------------------------------------------
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q19K9KKKq
+q10cmpFiles.sh          q17StartsWithUnix.sh    q5SumOfDigits.sh
+q11wordslt4.sh          q18Grep.sh              q6leapYear.sh
+q12TotalFilesDir.sh     q1gretestNum.sh         q7fibonacci.sh
+q13wordcount.sh         q20awk.sh               q8salaryCale.sh
+q14UserLogged.sh        q2allPrimeNum.sh        q9filePermissionUGA.sh
+q15countSDJIC.sh        q3evenOrOdd.sh          
+q16revWords.sh          q4Pattern.sh            
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q9filePermissionUGA.sh KKKKKKKKKKKKKKKKKKKKKK19K
+q10cmpFiles.sh        q14UserLogged.sh      q18Grep.sh
+q11wordslt4.sh        q15countSDJIC.sh      q1gretestNum.sh
+q12TotalFilesDir.sh   q16revWords.sh        
+q13wordcount.sh       q17StartsWithUnix.sh  
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q1KKKKKll
+total 180
+drwxrwxr-x 4 hamid hamid  4096 Oct 17 18:02 [0m[01;34m.[0m/
+drwxrwxr-x 4 hamid hamid  4096 Oct 12 14:30 [01;34m..[0m/
+-rw-rw-r-- 1 hamid hamid    95 Oct 12 14:11 11.txt
+-rw-rw-r-- 1 hamid hamid  1651 Oct 17 16:45 19Sed.sh
+-rw-rw-r-- 1 hamid hamid   197 Oct 17 17:35 c1.awk
+-rw-rw-r-- 1 hamid hamid   230 Oct 17 17:39 c2.awk
+drwxrwxr-x 2 hamid hamid  4096 Oct 17 16:12 [01;34mCPROGRAMS[0m/
+-rw-rw-r-- 1 hamid hamid    11 Oct 12 13:38 f1
+-rw-rw-r-- 1 hamid hamid   337 Oct 17 16:46 f1.txt
+-rw-rw-r-- 1 hamid hamid    20 Oct 12 11:15 f2
+-rw-rw-r-- 1 hamid hamid   748 Oct 17 17:06 f2.txt
+-rw-rw-r-- 1 hamid hamid    20 Oct 12 11:20 f3
+-rw-rw-r-- 1 hamid hamid     0 Oct 12 13:51 file
+drwxrwxr-x 2 hamid hamid  4096 Oct 12 14:30 [01;34mhh[0m/
+-rw-r--r-- 1 hamid hamid   162 Oct 17 18:01 .~nixhmd.docx
+-rw-rw-r-- 1 hamid hamid  9734 Oct 17 17:43 output.sh
+-rw-rw-r-- 1 hamid hamid    37 Oct 17 17:40 out.txt
+-rw-rw-r-- 1 hamid hamid   360 Oct 12 11:23 q10cmpFiles.sh
+-rw-rw-r-- 1 hamid hamid   106 Oct 12 13:14 q11wordslt4.sh
+-rw-rw-r-- 1 hamid hamid   211 Oct 12 13:33 q12TotalFilesDir.sh
+-rw-rw-r-- 1 hamid hamid   383 Oct 12 13:47 q13wordcount.sh
+-rw-rw-r-- 1 hamid hamid   176 Oct 12 13:45 q14UserLogged.sh
+-rw-rw-r-- 1 hamid hamid   135 Oct 12 14:25 q15countSDJIC.sh
+-rw-rw-r-- 1 hamid hamid   210 Oct 12 14:23 q16revWords.sh
+-rw-rw-r-- 1 hamid hamid   149 Oct 12 14:23 q17StartsWithUnix.sh
+-rw-rw-r-- 1 hamid hamid  2407 Oct 17 16:13 q18Grep.sh
+-rw-rw-r-- 1 hamid hamid   389 Oct 11 09:09 q1gretestNum.sh
+-rwxrwxrwx 1 hamid hamid  1644 Oct 17 17:36 [01;32mq20awk.sh[0m*
+-rw-rw-r-- 1 hamid hamid   323 Oct 17 15:34 q2allPrimeNum.sh
+-rw-rw-r-- 1 hamid hamid   187 Oct 17 15:15 q3evenOrOdd.sh
+-rw-rw-r-- 1 hamid hamid   137 Oct 11 09:26 q4Pattern.sh
+-rw-rw-r-- 1 hamid hamid   157 Oct 11 09:33 q5SumOfDigits.sh
+-rw-rw-r-- 1 hamid hamid   209 Oct 11 09:38 q6leapYear.sh
+-rw-rw-r-- 1 hamid hamid   121 Oct 12 08:48 q7fibonacci.sh
+-rw-rw-r-- 1 hamid hamid   603 Oct 12 09:17 q8salaryCale.sh
+-rw-rw-r-- 1 hamid hamid   935 Oct 12 11:17 q9filePermissionUGA.sh
+-rw-rw-r-- 1 hamid hamid  8192 Oct 17 18:07 record.txt
+-rw-rw-r-- 1 hamid hamid   118 Oct 17 17:43 test.sh
+-rw-r--r-- 1 hamid hamid 17733 Oct 17 18:01 unixhmd.docx
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ llKKsKll *.sh
+-rw-rw-r-- 1 hamid hamid 1651 Oct 17 16:45 19Sed.sh
+-rw-rw-r-- 1 hamid hamid 9734 Oct 17 17:43 output.sh
+-rw-rw-r-- 1 hamid hamid  360 Oct 12 11:23 q10cmpFiles.sh
+-rw-rw-r-- 1 hamid hamid  106 Oct 12 13:14 q11wordslt4.sh
+-rw-rw-r-- 1 hamid hamid  211 Oct 12 13:33 q12TotalFilesDir.sh
+-rw-rw-r-- 1 hamid hamid  383 Oct 12 13:47 q13wordcount.sh
+-rw-rw-r-- 1 hamid hamid  176 Oct 12 13:45 q14UserLogged.sh
+-rw-rw-r-- 1 hamid hamid  135 Oct 12 14:25 q15countSDJIC.sh
+-rw-rw-r-- 1 hamid hamid  210 Oct 12 14:23 q16revWords.sh
+-rw-rw-r-- 1 hamid hamid  149 Oct 12 14:23 q17StartsWithUnix.sh
+-rw-rw-r-- 1 hamid hamid 2407 Oct 17 16:13 q18Grep.sh
+-rw-rw-r-- 1 hamid hamid  389 Oct 11 09:09 q1gretestNum.sh
+-rwxrwxrwx 1 hamid hamid 1644 Oct 17 17:36 [0m[01;32mq20awk.sh[0m*
+-rw-rw-r-- 1 hamid hamid  323 Oct 17 15:34 q2allPrimeNum.sh
+-rw-rw-r-- 1 hamid hamid  187 Oct 17 15:15 q3evenOrOdd.sh
+-rw-rw-r-- 1 hamid hamid  137 Oct 11 09:26 q4Pattern.sh
+-rw-rw-r-- 1 hamid hamid  157 Oct 11 09:33 q5SumOfDigits.sh
+-rw-rw-r-- 1 hamid hamid  209 Oct 11 09:38 q6leapYear.sh
+-rw-rw-r-- 1 hamid hamid  121 Oct 12 08:48 q7fibonacci.sh
+-rw-rw-r-- 1 hamid hamid  603 Oct 12 09:17 q8salaryCale.sh
+-rw-rw-r-- 1 hamid hamid  935 Oct 12 11:17 q9filePermissionUGA.sh
+-rw-rw-r-- 1 hamid hamid  118 Oct 17 17:43 test.sh
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh 19sedKKKSed.sh 
+a. To print only last line of f1.txt
+end
+-------------------------------------------------------
+b. To print line number 1-3, 6-7 and 10 of f1.txt
+this is file with lots of lines
+this lines includes many words but we need to show
+only those words which have Length less then 4. 
+this is from SDJIC 
+BESTOSUNIX
+
+-------------------------------------------------------
+c. To print lines beginning with SDJIC of f1.txt
+SDJIC college
+-------------------------------------------------------
+d. Print three lines starting from fourth line of f1.txt
+so are you| ready to do that??
+SDJIC college
+this is from SDJIC 
+-------------------------------------------------------
+e. Print all blank lines of file f1.txt
+
+
+
+
+
+-------------------------------------------------------
+f. Print lines having either of “sdjic” or “sdjyc”
+sdjic is my| college
+a great college in surat is sdjic
+-------------------------------------------------------
+g. Lines beginning with either alphabet or digit
+this is file with lots of lines
+this lines includes many words but we need to show
+only those words which have Length less then 4. 
+so are you| ready to do that??
+SDJIC college
+this is from SDJIC 
+BESTOSUNIX
+Yes
+i will not fail
+sdjic is my| college
+a great college in surat is sdjic
+2nd october is birthday of Gandhi
+2562513336
+end
+-------------------------------------------------------
+h. To insert a line “additional line” before every line
+ additional line  
+this is file with lots of lines
+ additional line  
+this lines includes many words but we need to show
+ additional line  
+only those words which have Length less then 4. 
+ additional line  
+so are you| ready to do that??
+ additional line  
+SDJIC college
+ additional line  
+this is from SDJIC 
+ additional line  
+BESTOSUNIX
+ additional line  
+
+ additional line  
+
+ additional line  
+
+ additional line  
+Yes
+ additional line  
+i will not fail
+ additional line  
+sdjic is my| college
+ additional line  
+a great college in surat is sdjic
+ additional line  
+2nd october is birthday of Gandhi
+ additional line  
+2562513336
+ additional line  
+
+ additional line  
+
+ additional line  
+end
+-------------------------------------------------------
+i. To replace every occurrence of \| with : of first three lines
+this is file with lots of lines
+this lines includes many words but we need to show
+only those words which have Length less then 4. 
+so are you| ready to do that??
+SDJIC college
+this is from SDJIC 
+BESTOSUNIX
+
+
+
+Yes
+i will not fail
+sdjic is my| college
+a great college in surat is sdjic
+2nd october is birthday of Gandhi
+2562513336
+
+
+end
+-------------------------------------------------------
+j. To replace every occurrence of '|' with ':' of every line
+this is file with lots of lines
+this lines includes many words but we need to show
+only those words which have Length less then 4. 
+so are you: ready to do that??
+SDJIC college
+this is from SDJIC 
+BESTOSUNIX
+
+
+
+Yes
+i will not fail
+sdjic is my: college
+a great college in surat is sdjic
+2nd october is birthday of Gandhi
+2562513336
+
+
+end
+-------------------------------------------------------
+k. To remove all the lines having word \“fail\” from file f1.txt \(delete command\)
+this is file with lots of lines
+this lines includes many words but we need to show
+only those words which have Length less then 4. 
+so are you| ready to do that??
+SDJIC college
+this is from SDJIC 
+BESTOSUNIX
+
+
+
+Yes
+sdjic is my| college
+a great college in surat is sdjic
+2nd october is birthday of Gandhi
+2562513336
+
+
+end
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ sh q20awk.sh 
+a. Print name of the employee and designation of employee number 1021
+chanchal singhvi director
+-------------------------------------------------------
+b. Print name of the employee and designation of employees having salary > 10000
+lalit chowdury director
+sudhir Agarwal executive
+j.b. saxena g.m.
+-------------------------------------------------------
+c. Print name of the employee and designation of employee of Finance department
+anil aggarwal manager
+-------------------------------------------------------
+d. Same as 20(c) using printf statement.
+anil aggarwal        manager        
+-------------------------------------------------------
+e. Same as 20(c) using printf statement and redirect the output to out.txt file
+-------------------------------------------------------
+f. Print Serial number, employee number and employee name using printf statement of all managers and presidents.
+  8 1265                 s.n. dasgupta 
+ 10 2476                 anil aggarwal 
+-------------------------------------------------------
+g. Print Serial number, employee number, employee name and salary with header title “Manager Details” and footer average salary. (Use separate c1.awk script file and call it in
+Manager Details
+  8 1265                 s.n. dasgupta    5600.00 
+ 10 2476                 anil aggarwal    5000.00 
+Average Salary: 5300
+-------------------------------------------------------
+h. Same as 20(g) but accept designation as input (using getline).
+Enter Designation: manager
+Manager Details
+  8 1265                 s.n. dasgupta    5600.00 
+ 10 2476                 anil aggarwal    5000.00 
+Average Salary: 5300
+]0;hamid@hamid: ~/Documents/unix/scripts[01;32mhamid@hamid[00m:[01;34m~/Documents/unix/scripts[00m$ exit
+exit
+
+Script done on 2018-10-17 18:09:07+0530
